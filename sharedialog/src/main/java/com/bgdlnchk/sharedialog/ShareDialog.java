@@ -8,9 +8,9 @@ import android.view.View;
 
 public class ShareDialog {
 
-    private String title;
-    private String description;
-    private String googlePlayLink;
+    private static String title;
+    private static String description;
+    private static String googlePlayLink;
 
     public void setTitle(String title) {
         this.title = title;
@@ -24,7 +24,7 @@ public class ShareDialog {
         this.description = description;
     }
 
-    public void showDialog(Context context) {
+    public static void showDialog(Context context) {
         AlertDialog.Builder builder1 = new AlertDialog.Builder(context);
         builder1.setMessage(title);
         builder1.setCancelable(true);
