@@ -10,7 +10,7 @@ After that add the library to the build.gradle(app):
 implementation 'com.github.bgdlnchk:Share-Dialog:1.0.0'
 ```
 
-An example of implementation:\
+An example of implementation:
 ```
 val shareDialog = ShareDialog()
 shareDialog.setLink("https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_IN")
